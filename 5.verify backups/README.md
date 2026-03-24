@@ -2,6 +2,12 @@ This is a crucial maintenance script for Proxmox Backup Server (PBS). It ensures
 
 Below is the description for your README.md and the clean, formatted code for your GitHub repository.
 
+Variable Breakdown for your Docs:
+DATASTORE: The name of the PBS storage pool you want to check.
+
+EMAIL: The destination for error reports (requires mailutils or postfix to be configured on the server).
+LOGFILE: The local path where a history of the verification attempts is stored.
+
 📘 README.md Description
 Script: Proxmox Backup Server Verification & Alerting
 This script automates the integrity checking of backups stored on a Proxmox Backup Server. It verifies that the data chunks on the disk match their original checksums and sends an email notification if any corruption or errors are detected.
