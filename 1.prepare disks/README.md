@@ -1,4 +1,4 @@
-Script Overview: Automated ZFS Pool & PBS Datastore Creator:
+Script Overview (prepare.sh): Automated ZFS Pool & PBS Datastore Creator:
 
 This script streamlines the post-installation storage setup for Proxmox Backup Server. It detects the system disk to prevent accidental wipes, configures ZFS (Single or Mirror), and integrates the new storage directly into the PBS management system.
 
