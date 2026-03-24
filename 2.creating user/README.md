@@ -21,3 +21,10 @@ Path Mapping: Correctly maps the permission to the internal PBS path format: /da
 
 Use Case
 Use this script when you need to connect a Proxmox VE (PVE) node to your Backup Server. Instead of sharing the master password, you create a unique user for that specific node and its designated storage.
+
+Logic & Flow
+The script uses these variables to perform two main actions:
+
+User Creation: Uses $NEW_USER and $NEW_PASS to register the account.
+
+Permission Assignment: Uses $DATASTORE and $NEW_USER to link the account to a specific storage area with the DatastoreBackup role.
