@@ -11,9 +11,9 @@ POOL_NAME: A custom name for your new ZFS storage pool and PBS datastore.
 
 
 Pantallas:
-1) Muestra el
+1) Muestra los discos fisicos disponibles.
 
-2) <img width="576" height="240" alt="image" src="https://github.com/user-attachments/assets/3f83d1ed-9d16-4df8-a5fe-bc8860eea372" />
+ <img width="576" height="240" alt="image" src="https://github.com/user-attachments/assets/3f83d1ed-9d16-4df8-a5fe-bc8860eea372" />
 
 
 Key Features:
