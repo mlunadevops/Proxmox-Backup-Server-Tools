@@ -9,6 +9,13 @@ DISK_A_RAW: The identifier of the first physical disk you want to use.
 DISK_B_RAW The identifier of the second disk (only if creating a Mirror).
 POOL_NAME: A custom name for your new ZFS storage pool and PBS datastore.
 
+
+Pantallas:
+1) Muestra el
+
+2) <img width="576" height="240" alt="image" src="https://github.com/user-attachments/assets/3f83d1ed-9d16-4df8-a5fe-bc8860eea372" />
+
+
 Key Features:
 
 Intelligent OS Detection: Uses lsblk and findmnt to identify the physical disk hosting the root partition (even on LVM) to ensure it is never formatted by mistake.
