@@ -4,12 +4,6 @@ This script streamlines the post-installation storage setup for Proxmox Backup S
 
 Script detecta y muestra los discos fisicos disponibles en PBS, permite crear un RAID 1 por software con los discos que indiques, creara un ZFS datastore (lugar donde se guardaran los respaldos). Las variables que debe agregar el usuario son:
 
-EMAIL: The email address where Proxmox Backup Server (PBS) will send alerts
-DISK_A_RAW: The identifier of the first physical disk you want to use.
-DISK_B_RAW The identifier of the second disk (only if creating a Mirror).
-POOL_NAME: A custom name for your new ZFS storage pool and PBS datastore.
-
-
 Pantallas:
 1) Muestra los discos fisicos disponibles.
 
