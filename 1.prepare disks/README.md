@@ -15,7 +15,7 @@ Pantallas:
 
  <img width="576" height="240" alt="image" src="https://github.com/user-attachments/assets/3f83d1ed-9d16-4df8-a5fe-bc8860eea372" />
 
- 2) Solicita las variables:
+ 2) Solicita las variables, :
 
 EMAIL: The email address where Proxmox Backup Server (PBS) will send alerts
 DISK_A_RAW: The identifier of the first physical disk you want to use.
